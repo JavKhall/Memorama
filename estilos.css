@@ -1,0 +1,118 @@
+section {
+    background-color: #ADB5BD;
+    position: relative;
+}
+
+.header, .footer {
+    font-family: 'Poiret One', cursive;
+}
+
+#inicio {
+    background-color: #343a40;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+/*
+#tablero div{
+    height: 100px;
+    width: 100px;
+}
+*/
+
+.color {
+    /*height: 100px; */
+    /*width: 100px; */
+    background-color: #343a40;
+    transition: 200ms;
+}
+
+/* CONFIGURACION DE LA IMAGEN */
+div img {
+    opacity: 0;
+    transition: 200ms;
+}
+
+.color_click {
+    background-color: transparent;
+    transition: 400ms;
+}
+
+.imagen_entrada {
+    opacity: 1;
+    transition: 400ms;
+    transition-timing-function: ease-in-out;
+}
+
+/* .imagen_salida{
+    opacity: 0;
+    transform: rotate3d(1,1,0,-90deg);
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+} */
+
+.resuelto {
+    opacity: .5;
+    transition: 200ms;
+}
+
+section {
+    background-color: #ADB5BD;
+    position: relative;
+}
+
+.header, .footer {
+    font-family: 'Poiret One', cursive;
+}
+
+#inicio {
+    background-color: #343a40;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+/*
+#tablero div{
+    height: 100px;
+    width: 100px;
+}
+
+*/
+
+.color {
+    /*height: 100px; */
+    /*width: 100px; */
+    background-color: #343a40;
+    transition: 200ms;
+}
+
+/* CONFIGURACION DE LA IMAGEN */
+div img {
+    opacity: 0;
+    transition: 200ms;
+}
+
+.color_click {
+    background-color: transparent;
+    transition: 400ms;
+}
+
+.imagen_entrada {
+    opacity: 1;
+    transition: 400ms;
+    transition-timing-function: ease-in-out;
+}
+
+/* .imagen_salida{
+    opacity: 0;
+    transform: rotate3d(1,1,0,-90deg);
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+} */
+
+.resuelto {
+    opacity: .5;
+    transition: 200ms;
+}
