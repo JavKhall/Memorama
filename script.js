@@ -36,7 +36,7 @@ function cargarTablero (mostrar) {
         }
     }
 
-    cartas.sort(() => Math.random() - 0.1);
+    cartas.sort(() => Math.random() - 0.5);
     tablero.innerHTML = cartas.join(" ");
 
     //console.log(mostrar);
